@@ -40,8 +40,8 @@
 
 ### SSH
 - Bruteforce a SSH private key
-  - `python /usr/share/john/ssh2john.py <private_key> > private_key.hash
-  - `john --wordlist=/path/to/wordlists/wordlist.txt private_key.hash
+  - `python /usr/share/john/ssh2john.py <private_key> > private_key.hash`
+  - `john --wordlist=/path/to/wordlists/wordlist.txt private_key.hash`
 
 ------
 
