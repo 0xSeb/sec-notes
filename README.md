@@ -37,7 +37,14 @@
 - Enumerate SMB users
   - `enum4linux -a <ip>`
 
+
+### SSH
+- Bruteforce a SSH private key
+  - `python /usr/share/john/ssh2john.py <private_key> > private_key.hash
+  - `john --wordlist=/path/to/wordlists/wordlist.txt private_key.hash
+
 ------
+
 
 
 
@@ -45,3 +52,4 @@
 
 * From webshell to full tty :  https://blog.ropnop.com/upgrading-simple-shells-to-fully-interactive-ttys/
 * Cheatsheet post exploit linux : https://guif.re/linuxeop
+* SSH bruteforcer in go (way faster than hydra) : https://github.com/aldenso/sshgobrute
