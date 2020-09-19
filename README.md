@@ -32,7 +32,10 @@
   - Dump tables:
     -  `sqlmap -u http://example.com/users/<injection_param> -D <db_name> --tables --match`
 
+### SMB
 
+- Enumerate SMB users
+  - `enum4linux -a <ip>`
 
 ------
 
